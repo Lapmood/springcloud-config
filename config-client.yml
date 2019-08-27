@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active:
+
+---
+server:
+  port: 9001
+
+spring:
+  profiles: dev
+  application:
+    name: config-dev
+---
+server:
+  port: 9002
+
+spring:
+  profiles: test
+  application:
+    name: config-test
