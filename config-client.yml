@@ -4,13 +4,14 @@ spring:
     active:
 ---
 server:
-  port: 9001
+  port: 9111
 spring:
   profiles: dev
+  
 
 ---
 server:
-  port: 9002
+  port: 9222
 spring:
   profiles: test
 
