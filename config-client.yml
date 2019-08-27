@@ -11,7 +11,7 @@ spring:
 
 ---
 server:
-  port: 9444
+  port: 9555
 spring:
   profiles: test
 
